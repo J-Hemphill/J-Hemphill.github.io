@@ -11,7 +11,7 @@ const WorkCard = (props) => {
                 <div className='pro-details'>
                     <p>{ props.text }</p>
                     <div className='pro-btns'>
-                        <NavLink to={ props.demo } className='btn'>View</NavLink>
+                        <NavLink to={ props.demo } className='btn'>Demo</NavLink>
                     </div>
                 </div>
             </div>
